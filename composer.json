@@ -1,0 +1,16 @@
+{
+	"name": "thunbolt/forms",
+	"type": "library",
+	"require": {
+		"nette/forms": "^3.0.0",
+		"nette/application": "^3.0.0",
+		"thunbolt/flashes": "^1.0",
+		"nette/di": "^3.0",
+		"thunbolt/template-form-renderer": "^2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Thunbolt\\Forms\\": ["src/"]
+		}
+	}
+}
